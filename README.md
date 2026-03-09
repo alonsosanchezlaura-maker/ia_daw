@@ -1,1 +1,146 @@
-# ia_daw
+# Práctica IA (RA4 · d+e) — Sectores con implantación relevante y lenguajes de programación en IA
+
+## 1) Introducción
+- Objetivo de la práctica:
+Identificar los sectores productivos donde la IA tiene una implantación significativa y relacionarlos con los lenguajes de programación más utilizados en su desarrollo, evidenciando la conexión entre tecnología, aplicaciones reales y contexto profesional.
+
+- Relación con DAW/DAM:
+Permite comprender cómo integrar soluciones de IA en aplicaciones, servicios o productos digitales, relacionando desarrollo de software con análisis de datos y automatización de tareas.
+
+## 2) Sectores con implantación relevante de IA
+
+### Sector 1
+- Nombre del sector:
+Sanidad
+
+- Tipo de empresa/servicio:
+Hospitales, clínicas, laboratorios y servicios de diagnóstico médico.
+
+- Aplicación de IA:
+Análisis de imágenes médicas mediante modelos de visión por computador para detección temprana de enfermedades (radiografías, resonancias, tomografías).
+
+- Qué tarea mejora o automatiza:
+Automatiza la detección de anomalías y ayuda al diagnóstico, reduciendo errores humanos y agilizando el proceso.
+
+- Por qué la IA tiene implantación relevante en este sector:
+La gran cantidad de datos médicos, la necesidad de diagnósticos precisos y la presión por mejorar la eficiencia hacen que la IA sea indispensable.
+
+- Beneficios que aporta:
+Mejora la precisión diagnóstica, reduce tiempos de espera, optimiza recursos médicos y permite medicina personalizada.
+
+### Sector 2
+- Nombre del sector:
+Banca
+
+- Tipo de empresa/servicio:
+Bancos, fintechs, aseguradoras y servicios financieros.
+
+- Aplicación de IA:
+Detección de fraude en transacciones y scoring de riesgo crediticio mediante modelos predictivos.
+
+- Qué tarea mejora o automatiza:
+Identifica patrones sospechosos en transacciones y evalúa la solvencia de clientes automáticamente.
+
+- Por qué la IA tiene implantación relevante en este sector:
+La banca genera enormes volúmenes de datos transaccionales que requieren análisis rápido y preciso.
+
+- Beneficios que aporta:
+Reduce fraudes, mejora la toma de decisiones crediticias, optimiza procesos y protege a clientes y entidades.
+
+### Sector 3
+- Nombre del sector:
+Comercio electrónico
+
+- Tipo de empresa/servicio:
+Plataformas de venta online, marketplaces y tiendas digitales.
+
+- Aplicación de IA:
+Sistemas de recomendación de productos personalizados.
+
+- Qué tarea mejora o automatiza:
+Analiza el comportamiento de los usuarios para ofrecer productos relevantes, aumentando ventas y fidelización.
+
+- Por qué la IA tiene implantación relevante en este sector:
+La competencia digital obliga a personalizar la experiencia de compra y optimizar conversiones.
+
+- Beneficios que aporta:
+Incrementa ingresos, mejora la experiencia de usuario y permite campañas de marketing más efectivas.
+
+## 3) Lenguajes de programación en IA
+
+### Lenguaje 1
+- Nombre:
+Python
+
+- Uso principal en IA:
+Desarrollo de modelos de machine learning y deep learning, análisis de datos y automatización.
+
+- Ventajas:
+Amplio ecosistema de librerías (TensorFlow, PyTorch, scikit-learn), sintaxis sencilla, comunidad extensa y soporte multiplataforma.
+
+- Ejemplos de uso:
+Modelos de recomendación en comercio electrónico, análisis de imágenes médicas, detección de fraude bancario.
+
+### Lenguaje 2
+- Nombre:
+Java
+
+- Uso principal en IA:
+Desarrollo de aplicaciones robustas de IA, integración en sistemas empresariales y aplicaciones móviles.
+
+- Ventajas:
+Portabilidad, estabilidad y facilidad para integrarse con sistemas existentes en grandes empresas.
+
+- Ejemplos de uso:
+Sistemas de scoring crediticio en banca, motores de recomendación integrados en plataformas Java, chatbots.
+
+### Lenguaje 3
+- Nombre:
+R
+- Uso principal en IA:
+Análisis estadístico avanzado, minería de datos y visualización.
+
+- Ventajas:
+Potente para análisis estadístico y exploración de datos, gran cantidad de paquetes especializados (caret, randomForest).
+
+- Ejemplos de uso:
+Modelos predictivos en banca, análisis de tendencias de consumo, estudios epidemiológicos en sanidad.
+
+### Lenguaje 4
+- Nombre:
+C++
+
+- Uso principal en IA:
+Optimización de rendimiento en aplicaciones de IA que requieren alta velocidad, como visión por computador y simulaciones.
+
+- Ventajas:
+Alto rendimiento y control sobre memoria y recursos, adecuado para algoritmos complejos en tiempo real.
+
+- Ejemplos de uso:
+Procesamiento de imágenes médicas, simulaciones de logística o transporte, IA en videojuegos.
+
+
+## 4) Relación entre sectores, tipo de IA y lenguaje
+| Sector | Aplicación de IA | Tipo de IA/técnica | Lenguaje recomendado | Justificación |
+|--------|------------------|--------------------|----------------------|---------------|
+|        |                  |                    |                      |               |
+|        |                  |                    |                      |               |
+|        |                  |                    |                      |               |
+
+## 5) Diagrama (ASCII o Mermaid)
+(Pega aquí el diagrama)
+
+## 6) Riesgos y mitigación
+- Riesgo 1:
+- Mitigación 1:
+- Riesgo 2:
+- Mitigación 2:
+
+## 7) Conclusión
+- Qué sectores destacan más:
+- Qué lenguajes aparecen con más frecuencia:
+- Qué importancia tiene esto para DAW/DAM:
+
+## 8) Fuentes oficiales (mín. 2)
+- Fuente 1 (sectores / aplicación IA):
+- Fuente 2 (lenguajes / ecosistema técnico):
