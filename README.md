@@ -149,9 +149,18 @@ Validación del modelo con datos diversos, auditorías periódicas y pruebas ant
 
 ## 7) Conclusión
 - Qué sectores destacan más:
+Sanidad, banca y comercio electrónico por la alta generación de datos y necesidad de decisiones automatizadas.
+
 - Qué lenguajes aparecen con más frecuencia:
+Python y R por su flexibilidad, ecosistema y facilidad de integración.
+
 - Qué importancia tiene esto para DAW/DAM:
+Permite desarrollar soluciones inteligentes, optimizar procesos y ofrecer servicios digitales más eficientes y personalizados.
 
 ## 8) Fuentes oficiales (mín. 2)
 - Fuente 1 (sectores / aplicación IA):
+[OECD AI in Society 2022](https://chatgpt.com/c/69aea835-69b8-8327-bee9-06738f53dc26#:~:text=OECD%20AI%20in%20Society%202022)
+
 - Fuente 2 (lenguajes / ecosistema técnico):
+Python AI Ecosystem – Python.org
+[https://www.python.org/](https://www.python.org/)
