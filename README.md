@@ -88,21 +88,55 @@ KPI 3:
 - Por qué mejora la rentabilidad: Mejora la satisfacción del usuario y reduce la probabilidad de cancelar.
 
 ## 6) Diagrama del pipeline (ASCII o Mermaid)
-(Pega aquí el diagrama)
+Usuarios de Netflix
+        │
+        ▼
+Datos de uso (clics, visualizaciones, búsquedas)
+        │
+        ▼
+Ingesta de datos
+        │
+        ▼
+Limpieza y normalización
+        │
+        ▼
+Almacenamiento en Data Lake
+        │
+        ▼
+Modelo de IA de recomendación
+        │
+        ▼
+Lista personalizada de contenido
+        │
+        ▼
+Mayor visualización y retención
 
 ## 7) Riesgos y mitigación
 Riesgo 1:
+Privacidad de los datos de usuario.
 - Mitigación 1:
+Uso de anonimización de datos y cumplimiento de normativas de protección de datos.
 
 Riesgo 2:
+Sesgo en las recomendaciones que limite la diversidad de contenido.
 - Mitigación 2:
+Ajuste de algoritmos para incluir diversidad y revisión periódica del sistema.
 
 ## 8) Valoración (criterio c): importancia presente y futura de la IA (10–15 líneas)
 - Importancia actual (hoy):
+Actualmente la IA es fundamental para las empresas porque permite analizar grandes cantidades de datos y tomar decisiones más rápidas y precisas. En sectores digitales, como el streaming, comercio electrónico o marketing, la IA mejora la personalización de servicios, optimiza procesos y aumenta la productividad. También ayuda a detectar fraudes, mejorar la seguridad y automatizar tareas repetitivas.
+
 - Importancia futura (3–5 años):
+En el futuro la IA tendrá un papel aún mayor gracias a la evolución de la IA generativa, los agentes autónomos y la automatización avanzada. Las empresas podrán automatizar más procesos complejos y tomar decisiones en tiempo real basadas en grandes volúmenes de datos.
+
 - Condiciones/limitaciones (datos, costes, regulación, ética, seguridad, empleo):
+La IA depende de la disponibilidad de datos de calidad, infraestructura tecnológica y profesionales especializados. También existen retos relacionados con la regulación, ética, privacidad de datos y ciberseguridad, además del posible impacto en algunos puestos de trabajo.
+
 - Conclusión razonada:
+En conclusión, la IA es una tecnología clave para la competitividad empresarial. Las organizaciones que sepan utilizar correctamente los datos y aplicar IA de forma responsable tendrán ventajas importantes en eficiencia, innovación y rentabilidad.
 
 ## 9) Fuentes oficiales (mín. 2)
 - Big Data/analítica (enlace oficial):
+https://www.ibm.com/topics/big-data
 - IA/técnica/modelo (enlace oficial):
+https://developers.google.com/machine-learning/recommendation
