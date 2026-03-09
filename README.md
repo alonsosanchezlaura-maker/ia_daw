@@ -52,11 +52,35 @@ Chatbots basados en IA
 ## 4) Optimización (mejora medible)
 Define 3 métricas con valores antes/después:
 - Tiempo:
+Antes: 20 minutos por ticket
+Después: 5–7 minutos por ticket
+
 - Coste:
+Antes: mayor carga de trabajo para agentes de soporte.
+Después: reducción aproximada del 30% del tiempo de trabajo humano.
+
 - Calidad:
+Antes: errores ocasionales al clasificar tickets.
+Después: mayor precisión en la clasificación (≈90%) y mejor priorización.
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
-(Pega aquí el diagrama)
+Usuario envía ticket
+        │
+        ▼
+ Sistema de IA analiza texto
+        │
+        ▼
+ Clasificación automática
+        │
+   ┌────┴────┐
+   ▼         ▼
+FAQ       Incidencia compleja
+(auto)        │
+   │          ▼
+Respuesta   Agente humano
+automática     │
+   │          ▼
+   └────► Respuesta final al cliente
 
 ## 6) Riesgos y mitigación
 - Riesgo 1:
