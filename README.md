@@ -123,18 +123,29 @@ Procesamiento de imágenes médicas, simulaciones de logística o transporte, IA
 ## 4) Relación entre sectores, tipo de IA y lenguaje
 | Sector | Aplicación de IA | Tipo de IA/técnica | Lenguaje recomendado | Justificación |
 |--------|------------------|--------------------|----------------------|---------------|
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
+|Sanidad |Análisis de imágenes médicas|Deep Learning / Visión por computador|Python|Amplio soporte de librerías de visión y deep learning, rápido prototipado y fácil integración con sistemas clínicos
+|Banca|Detección de fraude y scoring|Machine Learning / Modelos predictivos|R / Python|R para análisis estadístico, Python para modelos escalables y despliegue en producción|
+|Comercio electrónico|Recomendadores de productos|Machine Learning / Sistemas de recomendación|Python / Java|Python para prototipado y algoritmos, Java para integración en plataformas web y apps|
 
 ## 5) Diagrama (ASCII o Mermaid)
-(Pega aquí el diagrama)
+graph LR
+A[Sanidad] --> B[Análisis de imágenes médicas]
+B --> C[Python]
+D[Banca] --> E[Detección de fraude]
+E --> F[R / Python]
+G[Comercio electrónico] --> H[Recomendadores de productos]
+H --> I[Python / Java]
 
 ## 6) Riesgos y mitigación
 - Riesgo 1:
+Dependencia tecnológica de proveedores de IA y librerías externas.
 - Mitigación 1:
+Revisiones periódicas de código, uso de librerías open source y formación interna.
+
 - Riesgo 2:
+Sesgos en los datos que generan decisiones injustas o ineficaces.
 - Mitigación 2:
+Validación del modelo con datos diversos, auditorías periódicas y pruebas antes de desplegar.
 
 ## 7) Conclusión
 - Qué sectores destacan más:
