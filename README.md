@@ -84,9 +84,17 @@ automática     │
 
 ## 6) Riesgos y mitigación
 - Riesgo 1:
+Clasificación incorrecta de tickets por parte de la IA.
+
 - Mitigación 1:
+Sistema de revisión humana y mejora continua del modelo con nuevos datos.
+
 - Riesgo 2:
+Dependencia excesiva de respuestas automáticas que puedan ser incorrectas.
+
 - Mitigación 2:
+Establecer límites de confianza y enviar automáticamente al agente humano cuando la IA no esté segura.
 
 ## 7) Fuente oficial
-- Enlace: 
+- Enlace:
+https://cloud.google.com/learn/what-is-natural-language-processing
