@@ -34,33 +34,58 @@ series temporales de uso
 
 ## 3) Tratamiento/análisis: pipeline de datos
 Explica el flujo de forma ordenada:
+
 - Ingesta (captura/eventos):
+Los datos se recopilan automáticamente cuando el usuario interactúa con la plataforma (clics, visualizaciones, búsquedas).
+
 - Limpieza/normalización:
+Se eliminan datos duplicados o incompletos y se normalizan los formatos para que puedan ser analizados correctamente.
+
 - Almacenamiento (data lake/warehouse):
+Los datos se almacenan en grandes repositorios de datos (data lakes o data warehouses).
 - Preparación de variables (features):
+Se crean variables como:
+géneros preferidos
+tiempo medio de visualización
+frecuencia de uso
+contenido abandonado
+
 - Análisis/BI (opcional):
+Los analistas utilizan herramientas de análisis para detectar patrones de comportamiento de usuarios.
 
 ## 4) IA aplicada: modelo y decisión
 - Tipo de IA/técnica (clasificación, predicción, recomendación, anomalías, NLP...):
+Sistemas de recomendación basados en machine learning (recomendación y predicción).
+
 - Entrada del modelo (qué datos usa):
+historial de visualización
+preferencias del usuario
+comportamiento de usuarios similares
+características del contenido
+
 - Salida del modelo (qué produce):
+Lista personalizada de contenidos recomendados.
+
 - Decisión que habilita (qué hace la empresa con esa salida):
+Mostrar recomendaciones personalizadas en la página principal del usuario.
+
+Esto aumenta la probabilidad de que el usuario continúe viendo contenido.
 
 ## 5) Rentabilidad: KPIs antes/después (mínimo 3)
 KPI 1 (ingresos/coste/eficiencia):
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes: 80% de usuarios mantienen la suscripción
+- Después: 90% de usuarios mantienen la suscripción
+- Por qué mejora la rentabilidad: Menos cancelaciones significa ingresos más estables.
 
 KPI 2:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes: 1.5 horas diarias por usuario
+- Después: 2.2 horas diarias por usuario
+- Por qué mejora la rentabilidad: Mayor uso de la plataforma aumenta el valor percibido del servicio.
 
 KPI 3:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes: 40% de los usuarios encontraban contenido nuevo fácilmente
+- Después: 70% de los usuarios descubren contenido recomendado
+- Por qué mejora la rentabilidad: Mejora la satisfacción del usuario y reduce la probabilidad de cancelar.
 
 ## 6) Diagrama del pipeline (ASCII o Mermaid)
 (Pega aquí el diagrama)
