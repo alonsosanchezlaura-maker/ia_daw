@@ -80,4 +80,12 @@ Predicción: Estimar la probabilidad de que un usuario compre un producto espec�
 ## 6) Diagrama
 Usuario → App Web → Backend → Sistema IA → Recomendaciones → Usuario
 
+## 7) Riesgos
+- Riesgo 1: Privacidad de datos personales
+- Mitigación 1: Cumplimiento del RGPD; anonimización de datos y cifrado de logs.
+- Riesgo 2: Sesgo en recomendaciones
+- Mitigación 2: Monitoreo del modelo, diversidad en los datos y pruebas A/B para evitar             recomendaciones repetitivas o injustas.
 
+## 8) Fuente
+Scikit-learn: Machine Learning in Python
+Towards Data Science: Recommendation Systems
