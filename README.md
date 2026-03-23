@@ -41,11 +41,43 @@ Predicción: Estimar la probabilidad de que un usuario compre un producto espec�
   Escalado de datos numéricos para algoritmos de ML.
   
 - Entrenamiento:
-  Modelo de recomendación (ej. filtrado colaborativo o machine learning)
+  Algoritmos: filtrado colaborativo (user-based o item-based), KNN, o modelos de deep learning tipo    embeddings.
+  División de datos en training/validation/test para evitar overfitting.
 - Predicción:
-  El sistema genera recomendaciones personalizadas
+  El modelo genera un ranking de productos recomendados por usuario.
+  Se actualiza dinámicamente según interacciones recientes.
 - Uso:
-  Se muestran productos recomendados en la interfaz web
+  Recomendaciones mostradas en paneles de productos: “Recomendados para ti”, “Clientes como tú         también compraron…”.
+  Sistema integrado con la API REST del backend que consulta el modelo IA en tiempo real.
 
+## 4) Integración
+- Backend:
+  API REST en Node.js o Python (Flask/FastAPI)
+  Microservicio de IA que recibe el ID de usuario y devuelve recomendaciones.
+  
+- Frontend:
+  Interfaz en React/Angular
+  Componentes para mostrar listas personalizadas de productos.
+  Actualización dinámica usando fetch/axios para consumir la API.
+  
+- Flujo:
+  Usuario → App Web → Backend → Modelo IA → Recomendaciones → Usuario
+
+## 5) Valor
+- Mejora:
+  Experiencia de usuario personalizada.
+  Incremento en la tasa de conversión (usuarios compran más productos).
+  Reducción de abandono de carrito.
+  
+- Sin IA:
+  Productos mostrados de forma genérica.
+  Menor engagement y menos ventas.
+  
+- Rentabilidad:
+  Aumento estimado de ventas de un 15–25% por recomendaciones precisas.
+  Fidelización de clientes a largo plazo.
+
+## 6) Diagrama
+Usuario → App Web → Backend → Sistema IA → Recomendaciones → Usuario
 
 
