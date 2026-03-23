@@ -88,4 +88,5 @@ Usuario → App Web → Backend → Sistema IA → Recomendaciones → Usuario
 
 ## 8) Fuente
 Scikit-learn: Machine Learning in Python
+
 Towards Data Science: Recommendation Systems
